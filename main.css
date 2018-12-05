@@ -1,0 +1,32 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    /* padding: 0.25rem 0.5rem;
+    border:3px solid #fefefe;
+    border-radius: 7px;
+    color:#fefefe;
+    background: rgba(0, 0, 0, 6);
+    font-size:0.85rem;*/
+    text-transform:capitalize; 
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover{
+    background: rgb(27, 218, 75);
+    color:#ffffff;
+}
+
+.valign-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
